@@ -1,0 +1,12 @@
+#cloud-config
+timezone: Europe/Madrid
+package_upgrade: true
+packages:
+  - nano
+  - wget
+  - curl
+  - openssh-server
+  - net-tools
+  - unzip
+  - rsync
+  - git
