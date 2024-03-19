@@ -1,36 +1,36 @@
 # Incus
 
-Incus is a modern, secure and powerful system container and virtual machine manager.
+Incus es un gestor de máquinas virtuales y contenedores moderno, seguro y potente.
 
-It provides a unified experience for running and managing full Linux systems inside containers or virtual machines. Incus supports images for a large number of Linux distributions (official Ubuntu images and images provided by the community) and is built around a very powerful, yet pretty simple, REST API. Incus scales from one instance on a single machine to a cluster in a full data center rack, making it suitable for running workloads both for development and in production.
+Proporciona una experiencia unificada para ejecutar y administrar sistemas Linux dentro de contenedores o máquinas virtuales. Incus admite imágenes para una gran cantidad de distribuciones Linux (imágenes oficiales de Ubuntu e imágenes proporcionadas por la comunidad).
 
-Incus allows you to easily set up a system that feels like a small private cloud. You can run any type of workload in an efficient way while keeping your resources optimized.
+Incus te permite configurar fácilmente un sistema que parece una pequeña nube privada. Puede ejecutar cualquier tipo de carga de trabajo de manera eficiente mientras mantiene sus recursos optimizados.
 
-Check more info: https://github.com/lxc/incus
+Puede consultar más información desde el siguiente link: https://github.com/lxc/incus
 
-# Incus custom images
+# Imágenes de Incus personalizadas
 
-The aim of this project is to create custom images to help developers to configure development environments quickly.
+El objetivo de este proyecto es crear imágenes personalizadas que permitan a otros desarrolladores configurar entornos de desarrollo de forma rápida.
 
-# Get started
+# Comenzar
 
-The first step is to install incus into your computer. Incus is available on most common Linux distributions, you can check the documentation to how to install Incus: https://linuxcontainers.org/incus/docs/main/installing/
-Once Incus is installed, review the official documentation to set up a development environment in a few steps.
+El primer paso es instalar Incus en una máquina. Incus está disponible en la mayoria de distribuciones Linux, puedes consultar la documentación de cómo instalar Incus desde el link: https://linuxcontainers.org/incus/docs/main/installing/
+Una vez que Incus esté instalado, puedes comenzar a configurar el entorno de desarrollo. Revisa la documentación oficial para aprender a configurar el entorno en pocos pasos.
 
-## Debian+PHP+MySQL8 for web development
+## Debian+PHP+MySQL8 para desarrollo web
 
-This image is based in Debian 12 with Apache2 server. It can be configured with any version of PHP, from v5.6 until v8.2. As a database engine it includes MySQL 8.0. It also comes pre-installed with 2 versions of phpMyAdmin compatible with different versions of PHP.
+Esta imagen está basada en Debian 12 con Apache2 server. Puede ser configurada con cualquier versión de PHP, desde la v5.6 hasta la v8.3. Como motor de base de datos incluye MySQL 8.0. Además, viene preconfigurada con 2 versiones de phpMyAdmin compatible con versiones diferentes de PHP.
 
-### Main features
+### Principales características
 
-- Debian 12 cloud based image.
-- Apache2 server.
-- This image includes PHP 8.1 by default, but supports all PHP versions since 5.6.
-- PHP 8.1 extensions: libapache2-mod-php8.1 php8.1 php8.1-zip php8.1-bz2 php8.1-mysql php8.1-mbstring.
-- MySQL Server 8.0 with legacy auth method.
-- phpMyAdmin v4.9.11 (PHP 5.5 to 7.4 + MySQL/MariaDB 5.5 and newer)  and phpMyAdmin 5.2.1 (PHP 7.2 and newer + MySQL/MariaDB 5.5 and newer)
+- Imágen basada en Debian 12 cloud.
+- Servidor web Apache2.
+- Esta imágen incluye PHP 8.1 por defecto, pero soporta desde la versión de PHP 5.6.
+- Extensiones de PHP 8.1: libapache2-mod-php8.1 php8.1 php8.1-zip php8.1-bz2 php8.1-mysql php8.1-mbstring.
+- Servidor de base de datos MySQL 8.0 con método de autenticación heredado (legacy auth method).
+- phpMyAdmin v4.9.11 (PHP 5.5 to 7.4 + MySQL/MariaDB 5.5 y actual) y phpMyAdmin 5.2.1 (PHP 7.2 y actual + MySQL/MariaDB 5.5 y actual).
 
-### Additional system packages
+### Paquetes del sistema adicionales
 
 - nano
 - wget
@@ -41,10 +41,10 @@ This image is based in Debian 12 with Apache2 server. It can be configured with 
 - rsync
 - git 
 
-**IMPORTANT:**
+**IMPORTANTE:**
 
-This image is for development purposes not for a production environment. A few things need to be changed to improve security in a production environment.
+Esta imagen es para fines de desarrollo, no para un entorno de producción real. Es necesario modificar algunos parámetros para mejorar la seguridad para entornos de producción.
 
-# Documentation
+# Documentación
 
-Official documentation is still in progress. As soon as I can, I'll post the link.
+La documentación oficial aún está en proceso, tan pronto como pueda publicaré el link.
