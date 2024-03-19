@@ -23,9 +23,9 @@ Esta imagen está basada en Debian 12 con Apache2 server. Puede ser configurada 
 
 ### Principales características
 
-- Imágen basada en Debian 12 cloud.
+- Imagen basada en Debian 12 cloud.
 - Servidor web Apache2.
-- Esta imágen incluye PHP 8.1 por defecto, pero soporta desde la versión de PHP 5.6.
+- Esta imagen incluye PHP 8.1 por defecto, pero soporta desde la versión de PHP 5.6.
 - Extensiones de PHP 8.1: libapache2-mod-php8.1 php8.1 php8.1-zip php8.1-bz2 php8.1-mysql php8.1-mbstring.
 - Servidor de base de datos MySQL 8.0 con método de autenticación heredado (legacy auth method).
 - phpMyAdmin v4.9.11 (PHP 5.5 to 7.4 + MySQL/MariaDB 5.5 y actual) y phpMyAdmin 5.2.1 (PHP 7.2 y actual + MySQL/MariaDB 5.5 y actual).
