@@ -47,4 +47,4 @@ Esta imagen es para fines de desarrollo, no para un entorno de producción real.
 
 # Documentación
 
-La documentación oficial aún está en proceso, tan pronto como pueda publicaré el link.
+La documentación oficial la puedes encontrar en: https://rubisof.com/proyectos/imagenes-incus-personalizadas/docs
